@@ -1,3 +1,3 @@
 const PincodeFinder = require('./index');
-const pincodeFinder = new PincodeFinder();
-pincodeFinder.findPincode(248001).then(console.log);
+pincode = PincodeFinder(248001)
+console.log(pincode)
